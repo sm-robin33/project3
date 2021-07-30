@@ -8,6 +8,14 @@ body{
     width: 100%;
     overflow: hidden;
 }
+#header_area .container{
+    border-bottom: 1px solid #ddd;
+
+}
+#header_area .container .row{
+    margin-bottom: 15px;
+    
+}
 #header_area .logo_area{
     margin-top: 25px;
 }
@@ -59,4 +67,231 @@ body{
 .main_menu ul li a:hover{
     color: #40aed7;
     
+}
+
+
+#slider_area{padding: 50px 0;
+    overflow: hidden;}
+#slider_area img{
+display: inline-block;
+float: left;
+margin-right: 10px;
+width: 100%;
+}
+#slider_area h2{
+    color: #333333;
+    font-size: 36px;
+    font-weight: normal;
+    text-transform: uppercase;
+    margin-top: 150px;
+}
+#slider_area .col-md-3{
+    padding: 20px;
+}
+#slider_area p{color: #979797;
+font-size: 14px;}
+#slider_area a{
+    text-decoration: none;
+    font-size: 22px;
+    color: #fff;
+    background-color: #40aed7;
+    padding: 10px 20px;
+    margin-top: 20px;
+    display: inline-block;
+    text-transform: uppercase;
+    border-radius: 10px;
+}
+#slider_area a:hover{background-color: #ff6600;}
+
+
+#gallery_area{
+    padding: 50px 0;
+    text-align: center;
+}
+#gallery_area h2{
+    color: #333333;
+    text-transform: uppercase;
+    font-size: 36px;
+}
+#gallery_area p{
+    color: #333333;
+    font-size: 18px;
+    font-style: italic;
+    padding: 0 180px;
+    margin-bottom: 50px;
+    
+}
+#gallery_area .col-md-4 img{
+    width: 100%;
+}
+#gallery_area .col-md-4{
+    margin-bottom: 30px;
+}
+#gallery_area .full-width{
+    text-align: center;
+}
+#gallery_area .full-width a{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 22px;
+    background-color: #40aed7;
+    border-radius: 10px;
+    width: 100%;
+    text-decoration: none;
+    padding: 10px;
+    transition: 0.5s;
+}
+#gallery_area .full-width a:hover{
+    background-color: #ff6600;
+}
+
+#footer_area{
+    padding: 50px 0;
+    background-color: #1b1b1b;
+    color: #fff;
+    overflow: hidden;
+}
+#footer_area h2{
+    font-size: 18px;
+    text-transform: capitalize;
+}
+#footer_area p{
+    padding: 0;
+    margin: 0;
+    line-height: 2em;
+    font-size: 14px;
+}
+
+#footer_area ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+#footer_area ul li{
+    font-size: 14px;
+    margin-bottom: 10px ;
+}
+#footer_area ul li a{
+    color: #40aed7;
+    font-size: 14px;
+    text-decoration: none;
+    display: block;
+}
+
+#footer_area ul li a:hover{
+    
+}
+#footer_area .newsletter{
+
+}
+#footer_area .newsletter input{
+    background:none;
+    border: 0px solid;
+    color: #fff;
+    margin-top: 20px;
+    padding: 10px;
+    width: 70%;
+    float: left;
+}
+#footer_area .newsletter input[type="email"]{
+    
+}
+#footer_area .newsletter input[type="submit"]{
+    width: 28%;
+    float: left;
+    color: #40aed7  ;
+    text-transform: uppercase;
+}
+#footer_area .social_area{
+
+}
+#footer_area .social_area ul li{
+margin-right: 10px;
+display: inline-block;
+
+}
+#footer_area .social_area ul li a{
+font-size: 30px;
+color: #fff;
+}
+#copyright_area{
+    background-color: #161616;
+    overflow: hidden;
+}
+#copyright_area p{
+    font-size: 14px;
+    color: #fff;
+    margin-bottom: 0;
+    padding: 10px 0;
+}
+#copyright_area .col-md-6:last-child p{
+    float: right;
+}
+
+
+
+@media only screen and (min-width:200px) and (max-width:700px){
+#header_area{
+    padding: 10px 0;
+}
+.logo_area{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.search_area{
+    float: none;
+    width: 270px;
+    margin: 0 auto;
+}
+.search_area input[type="text"]{
+   width: 68%;
+   float: left;
+}
+.search_area input[type="submit"]{
+    width: 28%;
+    float: right;
+    /* margin-left: 5px; */
+ }
+ .main_menu ul{
+    text-align: center;
+}
+#slider_area img{
+    max-width: 100%;
+    width: auto;
+    }
+    #slider_area{
+        padding: 0;
+    }
+    #slider_area h2{
+        margin-top: 0;
+    }
+    #slider_area a{
+        margin-top: 5px;
+        
+    }
+    /* #gallery_area{
+        padding: 0;
+    } */
+    #gallery_area h2{
+        font-size: 25px;
+        text-align: center;
+    }
+    #gallery_area{
+        padding: 10px 0;
+
+    }
+    #gallery_area p{
+        
+        padding: 16px;
+        margin-bottom: 20px;
+        
+    }
+    #gallery_area img{
+        max-width: 100%;
+        width: auto;
+        }
+        #gallery_area .full-width{
+            margin-bottom: 15px;
+        }
+
 }
